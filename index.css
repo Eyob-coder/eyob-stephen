@@ -1,5 +1,126 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
 nav{
+	width: 100vw;
 	background-color: orangered;
 	align-items: right;
 	color: white;
+	padding: 15px 0px;
+	display: flex;
+	position: fixed;
+	justify-content: flex-end;
+}
+nav ul{
+	display: flex;
+	align-items: left;
+	padding-right: 20px;
+	font-size: 20px;
+}
+
+nav ul li {
+	list-style: none;
+	padding-left: 50px;
+	align-items: left;
+}
+
+.hero {
+	width: 100vw;
+	height: 100vh;
+	margin-top: -40px;
+	background-color: #312a2a;
+}
+
+.hero h1 {
+	padding: 130px 0px 0px 0px;
+}
+
+.hero h1{
+	color: white;
+	font-size: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero h6 {
+	color: red;
+	display: flex;
+	font-size: 25px;
+	margin-top: -40px;
+	justify-content: center;
+	align-items: center;
+}
+
+.projects {
+	background-color: rgb(18, 18, 239);
+}
+
+.projects h1 {
+	font-size: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: underline;
+	margin-top: -0px;
+}
+
+.projects a img {
+	display: flex;
+	width: 300px;
+	height: auto;
+}
+
+.projects a {
+	font-size: 20px;
+	color: white;
+}
+
+.img{
+	display: flex;
+}
+
+footer {
+	background-color: rgb(47, 44, 44);
+	height:80vh;
+	margin-top: -100px;
+}
+
+footer h1, footer h3{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+}
+
+footer h1{
+	color: white;
+	font-size: 60px;
+}
+
+footer h3{
+	color: white;
+	font-size: 28px;
+}
+
+footer a{
+	color: white;
+	text-decoration: none;
+	padding: 0px 50px;
+	margin-bottom: 50px;
+	margin-left: 50px;
+}
+
+.copy {
+	display: flex;
+	justify-content: space-between;
+	border-top: 3px solid red;
+	padding-top: -400px;
+}
+
+.copy p {
+	color: white;
+	display: flex;
+	margin: 0px 20px;
 }
